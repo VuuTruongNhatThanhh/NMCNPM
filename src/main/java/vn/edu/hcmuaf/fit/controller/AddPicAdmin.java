@@ -4,13 +4,8 @@ import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
-import vn.edu.hcmuaf.fit.Dao.PictureDao;
-import vn.edu.hcmuaf.fit.Dao.ProductDao;
-import vn.edu.hcmuaf.fit.Dao.TypeProductDao;
 import vn.edu.hcmuaf.fit.bean.Log;
 import vn.edu.hcmuaf.fit.database.DB;
-import vn.edu.hcmuaf.fit.model.TypeProduct;
-import vn.edu.hcmuaf.fit.model.User;
 import vn.edu.hcmuaf.fit.services.PermissionService;
 
 import javax.servlet.*;
@@ -19,9 +14,7 @@ import javax.servlet.annotation.*;
 import java.io.File;
 import java.io.IOException;
 import java.net.InetAddress;
-import java.util.Hashtable;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 
 @WebServlet(name = "AddPicAdmin", value = "/AddPicAdmin")

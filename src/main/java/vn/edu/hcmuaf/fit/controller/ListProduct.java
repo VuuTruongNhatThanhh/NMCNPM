@@ -1,11 +1,5 @@
 package vn.edu.hcmuaf.fit.controller;
 
-import vn.edu.hcmuaf.fit.bean.Log;
-import vn.edu.hcmuaf.fit.database.DB;
-import vn.edu.hcmuaf.fit.model.Product;
-import vn.edu.hcmuaf.fit.Dao.ProductDao;
-import vn.edu.hcmuaf.fit.Dao.TypeProductDao;
-
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;

@@ -1,7 +1,6 @@
 package vn.edu.hcmuaf.fit.Dao;
 
 import vn.edu.hcmuaf.fit.database.DBConnect;
-import vn.edu.hcmuaf.fit.services.SendingEmail;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

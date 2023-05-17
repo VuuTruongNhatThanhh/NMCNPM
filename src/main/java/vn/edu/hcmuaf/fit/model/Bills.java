@@ -2,15 +2,11 @@ package vn.edu.hcmuaf.fit.model;
 
 
 import vn.edu.hcmuaf.fit.Dao.BillDao;
-import vn.edu.hcmuaf.fit.Dao.BillDetailDao;
-import vn.edu.hcmuaf.fit.Dao.ProductDao;
 import vn.edu.hcmuaf.fit.Dao.ShipmentDetailDao;
-import vn.edu.hcmuaf.fit.controller.ListProduct;
 
 import java.sql.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Bills {

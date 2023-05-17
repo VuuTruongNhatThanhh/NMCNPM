@@ -2,7 +2,6 @@ package vn.edu.hcmuaf.fit.controller;
 
 import vn.edu.hcmuaf.fit.Dao.ShipmentDetailDao;
 import vn.edu.hcmuaf.fit.model.ShipmentDetails;
-import vn.edu.hcmuaf.fit.model.User;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

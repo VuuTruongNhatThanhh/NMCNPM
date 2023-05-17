@@ -2,12 +2,10 @@ package vn.edu.hcmuaf.fit.database;
 
 import com.mysql.cj.jdbc.MysqlDataSource;
 import org.jdbi.v3.core.Jdbi;
-import vn.edu.hcmuaf.fit.model.Product;
 
 import java.sql.SQLException;
 import java.util.List;
 import java.util.stream.Collectors;
-import  vn.edu.hcmuaf.fit.database.*;
 
 public class JDBiConnector {
     static Jdbi jdbi;

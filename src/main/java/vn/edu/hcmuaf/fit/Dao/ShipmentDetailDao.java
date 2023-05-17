@@ -3,7 +3,6 @@ package vn.edu.hcmuaf.fit.Dao;
 
 import vn.edu.hcmuaf.fit.database.DBConnect;
 import vn.edu.hcmuaf.fit.model.ShipmentDetails;
-import vn.edu.hcmuaf.fit.model.User;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

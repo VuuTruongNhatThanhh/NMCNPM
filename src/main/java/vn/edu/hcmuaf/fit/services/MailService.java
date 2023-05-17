@@ -1,13 +1,9 @@
 package vn.edu.hcmuaf.fit.services;
 
-import vn.edu.hcmuaf.fit.database.DBConnect;
-import vn.edu.hcmuaf.fit.model.User;
-
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-import java.io.UnsupportedEncodingException;
 import java.util.Properties;
 
 public class MailService {

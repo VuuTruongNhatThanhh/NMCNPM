@@ -1,7 +1,5 @@
 package vn.edu.hcmuaf.fit.model;
 
-import vn.edu.hcmuaf.fit.Dao.UserDao;
-
 import java.sql.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
